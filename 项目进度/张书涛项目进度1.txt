@@ -1,0 +1,6 @@
+1.通过脚手架搭建项目 √
+2.定义Home/Search/Header/Footer/Login/Register组件 √
+3.拆分:Header/Footer/Login/Register组件 √
+4. 拆分Home组件中各个组件 √
+5. 实现Header组件点击按钮跳转到Search界面并传参 √
+6.二次封装axios √

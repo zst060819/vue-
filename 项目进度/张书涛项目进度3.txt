@@ -1,0 +1,6 @@
+1.解决分类列表的bug
+2.通过mockjs来获取banners和floors的数据
+3.通过swiper实现轮播图效果
+4.抽取Carousel组件
+5.ListContainer组件和Floor组件使用轮播图组件Carousel
+6.封装productList的api接口函数和vuex

@@ -1,0 +1,8 @@
+1.实现注册
+2.通过validate插件实现表单的验证
+3.实现登录
+4.实现自动登录
+5.实现Trade/Pay/PaySuccess/Center路由的注册及跳转
+6.拆分MyOrder/GroupBuy组件及路由注册
+7.封装剩余的api接口
+8.MyOrder中获取订单列表数据

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script src="./eventBus.js"></script>
+  <script>
+    //绑定事件监听
+    eventBus.on('add', (data) => {
+      console.log('add的回调', data)
+    })
+    eventBus.on('add', (data) => {
+      console.log('add的回调2', data)
+    })
+    eventBus.on('delete', (data) => {
+      console.log('delete的回调', data)
+    })
+
+    // 解绑事件
+    // eventBus.off('add')
+    // eventBus.off('delete')
+    // eventBus.off()
+    eventBus.off(123)
+
+    //分发事件
+    eventBus.emit('add', 'abc')
+    eventBus.emit('delete', 'atguigu')
+  </script>
+</body>
+</html>
